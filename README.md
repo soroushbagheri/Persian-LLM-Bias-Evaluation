@@ -76,7 +76,7 @@ $$\text{CB} = \frac{\sum \text{PLL}_{\text{stereotype}}}{\sum \text{PLL}_{\text{
 ### 3. Approximate Next-Token Probability (APX)
 A faster approximation to PLL using next-token prediction probabilities rather than full masked scoring:
 
-$$\text{APX}(s) = \frac{1}{n} \sum_{i=1}^{n} \log P(w_i \mid w_{<i})$$
+\text{APX}(s) = \frac{1}{n} \sum_{i=1}^{n} \log P(w_i \mid w_{<i})
 
 ### 4. Tokenizer Fragmentation Features
 Additional analysis on how tokenizer behavior differs across English and Persian, measuring:
